@@ -49,4 +49,17 @@ function sum() {
 let resultOfsum = sum();
 console.log(resultOfsum);
 
-if (sum % 2 == 0)
+
+if ((resultOfsum % 2 === 0 && user === pari) || (resultOfsum % 2 === 1 && user === dispari)) {
+    console.log("l' utente ha vinto");
+} else {
+    console.log("l' utente ha perso");
+}
+
+
+
+// if (resultOfsum % 2 === 1 && user === dispari) {
+//     console.log("l' utente ha vinto");
+// } else {
+//     console.log("l' utente ha perso");
+// }
